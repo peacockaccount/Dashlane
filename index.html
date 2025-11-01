@@ -1,31 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic Meta -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pogo Customer Support – your complete guide to troubleshooting, account issues, game login problems, payment support, and more for Pogo online games." />
-  <meta name="keywords" content="Pogo customer support, Pogo help, Pogo support guide, Pogo game troubleshooting, Pogo account issues, Pogo login problems, Pogo payment support, Pogo technical help, Pogo support forum" />
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="Pogo Support Team" />
-  <meta property="og:title" content="Pogo Customer Support | Official Help Guide" />
-  <meta property="og:description" content="Get step-by-step help for Pogo games: contact methods, common game errors, account issues, payments, and troubleshooting." />
-  <meta property="og:image" content="https://cdn.pogo.com/images/pogo-logo.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.pogo.support" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="msvalidate.01" content="EF0D113A83DA6960716D3F3EB33D127B" />
+  <meta name="google-site-verification" content="2w6vC5QvIZ5HLbtPZNuTyHBpehF5mkviz_jlinYTNyg" />
+  <meta name="description" content="Login to your Bitdefender account to manage antivirus, Total Security, and device protection. Access Bitdefender Central for updates, licenses, and remote management."/>
+  <meta name="keywords" content="Bitdefender login, Bitdefender account, Bitdefender Central login, Bitdefender antivirus login, Bitdefender total security login, Bitdefender premium security login, Bitdefender VPN login, Bitdefender account access, Bitdefender online dashboard, Bitdefender subscription login, Bitdefender central portal"/>
 
-  <title>Pogo Customer Support | Official Help Guide</title>
+  <title>Bitdefender Login Account | Access Bitdefender Central</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
 
   <style>
     :root {
-      --primary: #0077CC;
-      --primary-light: #D6E8FF;
-      --dark: #0B1D3A;
-      --light: #4B5563;
-      --bg: #E8F1FF;
-      --white: #FFFFFF;
+      --primary: #0044cc;
+      --primary-dark: #002d80;
+      --primary-light: #e0edff;
+      --text-dark: #1e293b;
+      --text-light: #64748b;
+      --background: #f8fafc;
+      --white: #ffffff;
+      --error: #dc2626;
     }
 
     * {
@@ -36,172 +33,186 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background-color: var(--bg);
-      color: var(--dark);
-      line-height: 1.8;
+      background-color: var(--background);
+      color: var(--text-dark);
+      line-height: 1.6;
     }
 
-    /* Header */
     header {
-      background: linear-gradient(135deg, var(--primary) 0%, #3399FF 100%);
+      background: linear-gradient(135deg, var(--primary-dark) 0%, #007bff 100%);
       color: var(--white);
-      padding: 15px 25px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .navbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .logo {
-      font-weight: 700;
-      font-size: 1.5rem;
-      letter-spacing: 0.5px;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 20px;
-    }
-
-    .nav-links a {
-      color: var(--white);
-      text-decoration: none;
-      font-weight: 500;
-      transition: opacity 0.3s;
-    }
-
-    .nav-links a:hover {
-      opacity: 0.8;
-    }
-
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-    }
-
-    .bar {
-      width: 25px;
-      height: 3px;
-      background-color: var(--white);
-      margin: 4px 0;
-      border-radius: 3px;
-      transition: 0.3s;
-    }
-
-    /* Hero Section */
-    .hero {
       text-align: center;
-      padding: 70px 20px 60px;
-      background-color: var(--white);
-      border-bottom: 2px solid var(--primary-light);
+      padding: 70px 20px 90px;
+      border-radius: 0 0 30px 30px;
     }
 
-    .hero h1 {
-      font-size: 2.7rem;
-      color: var(--primary);
-      margin-bottom: 15px;
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
     }
 
-    .hero p {
+    .subtitle {
       font-size: 1.1rem;
-      color: var(--light);
-      max-width: 750px;
+      opacity: 0.9;
+      max-width: 600px;
       margin: 0 auto;
     }
 
-    /* Content Section */
     .container {
       max-width: 1200px;
-      margin: 50px auto;
-      padding: 0 20px;
+      margin: 0 auto;
+      padding: 30px 20px;
     }
 
-    .card {
+    .login-form-container {
       background: var(--white);
       padding: 40px;
       border-radius: 12px;
-      margin-bottom: 40px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      max-width: 500px;
+      margin: -60px auto 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     }
 
-    .card h2 {
-      color: var(--primary);
+    .login-form-container h2 {
+      text-align: center;
+      color: var(--primary-dark);
+      margin-bottom: 25px;
+    }
+
+    .form-group {
       margin-bottom: 20px;
-      font-size: 1.8rem;
     }
 
-    .card h3 {
-      color: var(--dark);
-      margin-bottom: 10px;
-      font-size: 1.2rem;
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
     }
 
-    .card p {
-      margin-bottom: 15px;
-      color: var(--dark);
+    .form-group input {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
       font-size: 1rem;
     }
 
-    .card ul {
-      list-style-type: disc;
-      padding-left: 20px;
-      margin-bottom: 15px;
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      background-color: var(--primary);
+      color: var(--white);
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    .error-message {
+      display: none;
+      background-color: #fee2e2;
+      color: var(--error);
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      border-left: 4px solid var(--error);
+      text-align: center;
+    }
+
+    .support-section {
+      text-align: center;
+      margin-top: 25px;
+      display: none;
+    }
+
+    .support-btn {
+      background: none;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      font-size: 1rem;
+      padding: 10px 15px;
+      border-radius: 6px;
+      color: var(--primary-dark);
+      transition: all 0.3s ease;
+    }
+
+    .support-btn:hover {
+      background-color: var(--primary-light);
+    }
+
+    .content-section {
+      margin: 60px 0;
+    }
+
+    .content-card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .content-card h2 {
+      color: var(--primary-dark);
+      margin-bottom: 20px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .step-number {
+      background-color: var(--primary);
+      color: var(--white);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .step-content h3 {
+      margin-bottom: 5px;
+      font-size: 1.2rem;
     }
 
     .note {
       background-color: var(--primary-light);
-      border-left: 4px solid var(--primary);
       padding: 15px;
+      border-left: 4px solid var(--primary);
+      margin: 20px 0;
       border-radius: 8px;
-      margin-top: 20px;
-      font-size: 0.95rem;
     }
 
     footer {
       text-align: center;
       padding: 30px;
-      background: var(--primary);
-      color: var(--white);
+      color: var(--text-light);
+      font-size: 0.9rem;
+      border-top: 1px solid #e2e8f0;
       margin-top: 60px;
     }
 
-    /* Mobile Styles */
     @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: var(--primary);
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
-      }
-
-      .nav-links a {
-        display: block;
-        padding: 10px 0;
-      }
-
-      .hamburger {
-        display: flex;
-      }
-
-      .nav-links.active {
-        display: flex;
-      }
-
-      .hero h1 {
+      header h1 {
         font-size: 2.2rem;
+      }
+      .login-form-container {
+        padding: 30px 20px;
       }
     }
   </style>
@@ -210,122 +221,117 @@
 <body>
 
   <header>
-    <div class="navbar">
-      <div class="logo">Pogo Support</div>
-      <nav class="nav-links" id="navLinks">
-        <a href="/">Home</a>
-        <a href="contact-us.html">Contact Us</a>
-      </nav>
-      <div class="hamburger" id="hamburger">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </div>
+    <h1>Bitdefender Login Account</h1>
+    <p class="subtitle">Access your Bitdefender Central account to manage antivirus, subscriptions, and devices — all from one secure dashboard.</p>
   </header>
 
-  <section class="hero">
-    <h1>Pogo Customer Support</h1>
-    <p>Welcome to the official support guide for Pogo games. Find comprehensive help for account management, login issues, payments, game errors, and troubleshooting.</p>
-  </section>
-
   <div class="container">
+    <div class="login-form-container">
+      <h2>Login to Your Bitdefender Account</h2>
+      <form id="bitdefenderLoginForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div class="error-message" id="errorMessage">
+          Invalid login attempt. Please check your email or password and try again.
+        </div>
+        <button type="submit" class="login-btn" id="submitBtn">Login Securely</button>
+      </form>
 
-    <div class="card">
-      <h2>Overview of Pogo Support</h2>
-      <p>
-        Pogo is a popular online gaming platform offering card games, puzzle games, and multiplayer experiences. Players can enjoy games like Poppit!, Mahjong, and Word Whomp across multiple devices.
-      </p>
-      <p>
-        Users may encounter login issues, account access problems, payment errors, or gameplay glitches. Pogo Customer Support provides solutions through its help articles, FAQ, and community assistance.
-      </p>
-      <div class="note">
-        <strong>Quick Tip:</strong> Always ensure your browser or Pogo app is updated to avoid unexpected errors.
+      <div class="support-section" id="supportSection">
+        <button class="support-btn" id="supportBtn">Contact Bitdefender Support</button>
       </div>
     </div>
 
-    <div class="card">
-      <h2>Where to Find Pogo Help & Support</h2>
-      <p>
-        Use these official resources to get support:
-      </p>
-      <ul>
-        <li><strong>Help Center & Knowledge Base:</strong> Browse Pogo support articles for account setup, login issues, payment problems, and troubleshooting.</li>
-        <li><strong>Community Forums:</strong> Ask questions on Pogo forums where experienced players and volunteers help each other.</li>
-        <li><strong>Contact Support:</strong> Submit support tickets directly through the Pogo Help Center for account or payment issues.</li>
-      </ul>
-      <div class="note">
-        <strong>Note:</strong> Premium support may be available for Club Pogo members for faster resolution.
+    <div class="content-section">
+
+      <div class="content-card">
+        <h2>About Bitdefender Account</h2>
+        <p>
+          A Bitdefender Account allows you to manage all your security solutions from a single dashboard called <strong>Bitdefender Central</strong>.
+          It provides cloud-based control to activate products, track devices, manage parental controls, and monitor online threats in real time.
+        </p>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Go to Bitdefender Central</h3>
+            <p>Visit <strong>https://central.bitdefender.com</strong> to access the login page.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Enter Your Login Credentials</h3>
+            <p>Sign in using your Bitdefender account email and password. You can also use Google or Microsoft authentication.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Manage Your Devices</h3>
+            <p>Once logged in, monitor your protected devices, update software, and view your active subscriptions easily.</p>
+          </div>
+        </div>
+
+        <div class="note">
+          Tip: Always enable two-factor authentication (2FA) in your Bitdefender account settings for added security.
+        </div>
       </div>
-    </div>
 
-    <div class="card">
-      <h2>Common Issues and Solutions</h2>
-      <ul>
-        <li><strong>Account login issues:</strong> Forgotten passwords, blocked accounts, or authentication problems.</li>
-        <li><strong>Payment problems:</strong> Failed purchases, billing errors, or missing credits.</li>
-        <li><strong>Game errors and crashes:</strong> Browser compatibility issues, outdated Flash components, or app glitches.</li>
-        <li><strong>Profile and settings:</strong> Resetting game progress, managing saved data, or account preferences.</li>
-        <li><strong>Connectivity:</strong> Multiplayer connection errors or timeouts.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>How to Submit a Support Ticket</h2>
-      <h3>Step 1: Describe Your Issue Clearly</h3>
-      <p>Include account details, error messages, device information, browser/app version, and screenshots.</p>
-
-      <h3>Step 2: Check the Knowledge Base First</h3>
-      <p>Search the Pogo Help Center for your issue — many problems are already documented.</p>
-
-      <h3>Step 3: Submit a Ticket</h3>
-      <p>Use the “Contact Support” form in Pogo to submit your query. Include all details and attachments for faster response.</p>
-
-      <h3>Step 4: Follow Up if Needed</h3>
-      <p>Check your email or Pogo account for ticket responses and provide additional information if requested.</p>
-
-      <div class="note">
-        Providing complete information ensures quicker and more accurate resolution.
+      <div class="content-card">
+        <h2>Key Benefits of Bitdefender Login</h2>
+        <ul>
+          <li><strong>Unified Dashboard:</strong> Control all Bitdefender products from one location.</li>
+          <li><strong>Remote Device Management:</strong> View and control your connected devices.</li>
+          <li><strong>Auto-Renewal & Subscriptions:</strong> Keep your antivirus and VPN always active.</li>
+          <li><strong>Instant Alerts:</strong> Receive security notifications in real time.</li>
+          <li><strong>Cross-Platform Access:</strong> Manage from Windows, macOS, Android, or iOS devices.</li>
+        </ul>
       </div>
+
+      <div class="content-card">
+        <h2>Troubleshooting Login Problems</h2>
+        <ul>
+          <li><strong>Forgot Password:</strong> Use the “Forgot password?” link to reset your credentials.</li>
+          <li><strong>Browser Issues:</strong> Clear cookies or use an incognito window if login fails.</li>
+          <li><strong>Account Locked:</strong> Wait a few minutes before retrying multiple failed attempts.</li>
+          <li><strong>2FA Issues:</strong> Ensure your authentication app or email is accessible.</li>
+        </ul>
+
+        <div class="note">
+          Still having issues? Visit the <strong>Bitdefender Support Center</strong> for step-by-step troubleshooting.
+        </div>
+      </div>
+
     </div>
-
-    <div class="card">
-      <h2>Tips for Smooth Gameplay</h2>
-      <ul>
-        <li>Keep your browser or Pogo app updated to the latest version.</li>
-        <li>Clear browser cache or app data if encountering errors.</li>
-        <li>Use supported devices and browsers for optimal performance.</li>
-        <li>Keep track of Club Pogo membership benefits for premium support and bonuses.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Frequently Asked Questions (FAQ)</h2>
-      <h3>Q1: How do I reset my Pogo password?</h3>
-      <p>Use the “Forgot Password” option on the login page and follow the email instructions to reset your password.</p>
-
-      <h3>Q2: How can I contact Pogo support?</h3>
-      <p>Submit a ticket via the Pogo Help Center or check the Community Forum for answers.</p>
-
-      <h3>Q3: Why is my purchase not credited?</h3>
-      <p>Check your transaction confirmation, wait a few minutes, and if it’s still missing, submit a ticket with your payment details.</p>
-
-      <h3>Q4: Can I play Pogo games on mobile?</h3>
-      <p>Yes, Pogo offers mobile-compatible games through supported browsers or apps on iOS and Android devices.</p>
-    </div>
-
   </div>
 
   <footer>
-    <p>© 2025 Pogo Games & EA. All rights reserved | Pogo is a service of Electronic Arts.</p>
+    <p>© 2025 Bitdefender Central. All rights reserved.</p>
   </footer>
 
   <script>
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('navLinks');
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
+    document.getElementById('bitdefenderLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('errorMessage').style.display = 'block';
+      document.getElementById('submitBtn').style.display = 'none';
+      document.getElementById('supportSection').style.display = 'block';
+      document.getElementById('errorMessage').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    document.getElementById('supportBtn').addEventListener('click', function() {
+      alert('Redirecting to Bitdefender Support...');
+      window.open('https://www.bitdefender.com/consumer/support/', '_blank');
     });
   </script>
+
 </body>
 </html>
