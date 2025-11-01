@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pogo Customer Support – your complete guide to troubleshooting, account issues, game login problems, payment support, and more for Pogo online games." />
+  <meta name="keywords" content="Pogo customer support, Pogo help, Pogo support guide, Pogo game troubleshooting, Pogo account issues, Pogo login problems, Pogo payment support, Pogo technical help, Pogo support forum" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Pogo Support Team" />
+  <meta property="og:title" content="Pogo Customer Support | Official Help Guide" />
+  <meta property="og:description" content="Get step-by-step help for Pogo games: contact methods, common game errors, account issues, payments, and troubleshooting." />
+  <meta property="og:image" content="https://cdn.pogo.com/images/pogo-logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.pogo.support" />
+
+  <title>Pogo Customer Support | Official Help Guide</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #0077CC;
+      --primary-light: #D6E8FF;
+      --dark: #0B1D3A;
+      --light: #4B5563;
+      --bg: #E8F1FF;
+      --white: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--dark);
+      line-height: 1.8;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #3399FF 100%);
+      color: var(--white);
+      padding: 15px 25px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.3s;
+    }
+
+    .nav-links a:hover {
+      opacity: 0.8;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: var(--white);
+      margin: 4px 0;
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 70px 20px 60px;
+      background-color: var(--white);
+      border-bottom: 2px solid var(--primary-light);
+    }
+
+    .hero h1 {
+      font-size: 2.7rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--light);
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    /* Content Section */
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    .card h3 {
+      color: var(--dark);
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      color: var(--dark);
+      font-size: 1rem;
+    }
+
+    .card ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    .note {
+      background-color: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: var(--primary);
+      color: var(--white);
+      margin-top: 60px;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: var(--primary);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .nav-links a {
+        display: block;
+        padding: 10px 0;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">Pogo Support</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Pogo Customer Support</h1>
+    <p>Welcome to the official support guide for Pogo games. Find comprehensive help for account management, login issues, payments, game errors, and troubleshooting.</p>
+  </section>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Overview of Pogo Support</h2>
+      <p>
+        Pogo is a popular online gaming platform offering card games, puzzle games, and multiplayer experiences. Players can enjoy games like Poppit!, Mahjong, and Word Whomp across multiple devices.
+      </p>
+      <p>
+        Users may encounter login issues, account access problems, payment errors, or gameplay glitches. Pogo Customer Support provides solutions through its help articles, FAQ, and community assistance.
+      </p>
+      <div class="note">
+        <strong>Quick Tip:</strong> Always ensure your browser or Pogo app is updated to avoid unexpected errors.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Where to Find Pogo Help & Support</h2>
+      <p>
+        Use these official resources to get support:
+      </p>
+      <ul>
+        <li><strong>Help Center & Knowledge Base:</strong> Browse Pogo support articles for account setup, login issues, payment problems, and troubleshooting.</li>
+        <li><strong>Community Forums:</strong> Ask questions on Pogo forums where experienced players and volunteers help each other.</li>
+        <li><strong>Contact Support:</strong> Submit support tickets directly through the Pogo Help Center for account or payment issues.</li>
+      </ul>
+      <div class="note">
+        <strong>Note:</strong> Premium support may be available for Club Pogo members for faster resolution.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Common Issues and Solutions</h2>
+      <ul>
+        <li><strong>Account login issues:</strong> Forgotten passwords, blocked accounts, or authentication problems.</li>
+        <li><strong>Payment problems:</strong> Failed purchases, billing errors, or missing credits.</li>
+        <li><strong>Game errors and crashes:</strong> Browser compatibility issues, outdated Flash components, or app glitches.</li>
+        <li><strong>Profile and settings:</strong> Resetting game progress, managing saved data, or account preferences.</li>
+        <li><strong>Connectivity:</strong> Multiplayer connection errors or timeouts.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How to Submit a Support Ticket</h2>
+      <h3>Step 1: Describe Your Issue Clearly</h3>
+      <p>Include account details, error messages, device information, browser/app version, and screenshots.</p>
+
+      <h3>Step 2: Check the Knowledge Base First</h3>
+      <p>Search the Pogo Help Center for your issue — many problems are already documented.</p>
+
+      <h3>Step 3: Submit a Ticket</h3>
+      <p>Use the “Contact Support” form in Pogo to submit your query. Include all details and attachments for faster response.</p>
+
+      <h3>Step 4: Follow Up if Needed</h3>
+      <p>Check your email or Pogo account for ticket responses and provide additional information if requested.</p>
+
+      <div class="note">
+        Providing complete information ensures quicker and more accurate resolution.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Tips for Smooth Gameplay</h2>
+      <ul>
+        <li>Keep your browser or Pogo app updated to the latest version.</li>
+        <li>Clear browser cache or app data if encountering errors.</li>
+        <li>Use supported devices and browsers for optimal performance.</li>
+        <li>Keep track of Club Pogo membership benefits for premium support and bonuses.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <h3>Q1: How do I reset my Pogo password?</h3>
+      <p>Use the “Forgot Password” option on the login page and follow the email instructions to reset your password.</p>
+
+      <h3>Q2: How can I contact Pogo support?</h3>
+      <p>Submit a ticket via the Pogo Help Center or check the Community Forum for answers.</p>
+
+      <h3>Q3: Why is my purchase not credited?</h3>
+      <p>Check your transaction confirmation, wait a few minutes, and if it’s still missing, submit a ticket with your payment details.</p>
+
+      <h3>Q4: Can I play Pogo games on mobile?</h3>
+      <p>Yes, Pogo offers mobile-compatible games through supported browsers or apps on iOS and Android devices.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Pogo Games & EA. All rights reserved | Pogo is a service of Electronic Arts.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
